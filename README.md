@@ -3,7 +3,7 @@
 Family friendly version of BF interpreter. Literally a turing machine. Written in Python. Language is simple to learn, concise, efficient and not useful.
 
 ## Friendly Challenge
-Generate a fibonacci series with the interpreter.
+Try to generate a fibonacci series with the this language.
 
 ## Language Semantics
 Consider you have an infinitely long magnetic tape and you are standing exactly in middle. You can walk in two direction. Let's say if you move towards left. you move in negative direction otherwise you will move in positive direction. You start from 0. Each position is called a cell. For a given instruction, 
