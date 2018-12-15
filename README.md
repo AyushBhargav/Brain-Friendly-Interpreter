@@ -15,16 +15,16 @@ Consider you have an infinitely long magnetic tape and you are standing exactly 
 * You can initiate a loop for a current cell.
 * You can end a loop for a given cell.
 
-Symbol | Action
--------|-------
-> | increment the data pointer (to point to the next cell to the right).
-< | decrement the data pointer (to point to the next cell to the left).
-+ | increment value by one.
-- | decrement value by one.
-. | output value on screen.
-, | take one byte from keyboard.
-\[ | if the byte at the data pointer is zero, then instead of moving the instruction pointer forward to the next command, jump it forward to the command after the matching ] command. 
-] | if the byte at the data pointer is nonzero, then instead of moving the instruction pointer forward to the next command, jump it back to the command after the matching \[ command. 
+| Symbol | Action |
+| ------ | ------ |
+| > | increment the data pointer (to point to the next cell to the right). |
+| < | decrement the data pointer (to point to the next cell to the left). |
+| + | increment value by one. |
+| - | decrement value by one. |
+| . | output value on screen. |
+| , | take one byte from keyboard. |
+| \[ | if the byte at the data pointer is zero, then instead of moving the instruction pointer forward to the next command, jump it forward to the command after the matching \] command. |
+| \] | if the byte at the data pointer is nonzero, then instead of moving the instruction pointer forward to the next command, jump it back to the command after the matching \[ command. | 
 
 
 ### Have fun!
