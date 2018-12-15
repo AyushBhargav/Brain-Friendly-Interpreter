@@ -1,6 +1,6 @@
 # BrainFriendly-Interpreter
 
-Literally a turing machine. Written in Python.  Language is simple to learn, concise, efficient and anything but useful.
+Family friendly version of BF interpreter. Literally a turing machine. Written in Python. Language is simple to learn, concise, efficient and not useful.
 
 ## Friendly Challenge
 Generate a fibonacci series with the interpreter.
@@ -26,5 +26,8 @@ Consider you have an infinitely long magnetic tape and you are standing exactly 
 | \[ | if the byte at the data pointer is zero, then instead of moving the instruction pointer forward to the next command, jump it forward to the command after the matching \] command. |
 | \] | if the byte at the data pointer is nonzero, then instead of moving the instruction pointer forward to the next command, jump it back to the command after the matching \[ command. | 
 
-
+## Sample Addition Program
+```
+,>,[<+>-]<.
+```
 ### Have fun!
