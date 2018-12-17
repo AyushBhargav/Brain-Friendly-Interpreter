@@ -1,6 +1,6 @@
 # BrainFriendly-Interpreter
 
-Family friendly version of BF interpreter. Literally a turing machine. Written in Python. Language is simple to learn, concise, efficient and not useful.
+Literally a turing machine. Written in Python. Language is simple to learn, concise, efficient and not useful.
 
 ## How to run REPL shell
 To run the REPL shell for the language, download .exe file from releases or just run main.py file with appropriate python environment i.e. Python 3.6.
